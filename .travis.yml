@@ -5,6 +5,6 @@ services:
 before_install:
     - docker build -t hellomagyar/method2 -f Dockerfile2
 
-script:
+#script:
 
-    - docker run -p 8080:8080 hellomagyar/method2
+#    - docker run -p 8080:8080 hellomagyar/method2
